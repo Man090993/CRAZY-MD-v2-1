@@ -3,18 +3,18 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '237694268225'
+process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '237690022323'
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'crazycvv@gmail.com'
 global.github = 'https://github.com/CrazyPrince/CRAZY-MD'
 global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || "237620114013"
+global.gurl = 'https://instagram.com/' // add your user name
+global.sudo = process.env.SUDO || "237690022323"
 global.devs = "237620114013";
 global.website = 'https://github.com/CrazyPrince/CRAZY-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/984e15c49561a5dd9d112.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/10998fd957d5455c6e744.jpg'
 
 
 
@@ -22,7 +22,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/984e15c
 
 
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'Crazy Bot' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'manfred bot' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'CRAZY MD' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'CRAZY_MD' : process.env.PACK_INFO.split(";")[0],
@@ -52,7 +52,7 @@ module.exports = {
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'zeropgg' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.1' : process.env.VERSION,
-  LANG: process.env.THEME|| 'CRAZY',
+  LANG: process.env.THEME|| 'manfred',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE,
   LG: process.env.LG === undefined ? 'false' : process.env.LG,
 };
